@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Monument Extended';
+    color: rgba(255, 255, 255, 0.866);
+    
+}
+
+@font-face {
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Monument Extended'),
+        url(https://fonts.cdnfonts.com/s/19595/MonumentExtended-Regular.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Monument Extended'),
+        url(https://fonts.cdnfonts.com/s/19595/MonumentExtended-Ultrabold.woff) format('woff');
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+
+#top {
+    height: 50%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1754079132962-2f6c62f14d33?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=https://images.unsplash.com/photo-1754079132962-2f6c62f14d33?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D%3D%3D);
+    background-size: cover;
+    background-position: bottom;
+}
+
+#overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.488);
+    position: relative;
+}
+
+#txt {
+    position: absolute;
+    bottom: 20%;
+    justify-content: space-between;
+    padding: 0 5vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+}
+
+#txt h1 {
+    font-size: 70px;
+    font-weight: 400;
+}
+
+#txtright {
+    display: flex;
+    justify-content: space-around;
+}
+
+#txtright p {
+    font-size: 8px;
+    text-wrap: wrap;
+    width: 50%;
+}
+
+#ft p {
+    margin: 10px;
+}
+
+
+#st p {
+    margin: 10px;
+}
+
+#icons{
+    display:flex;
+    align-items: center;
+}
+
+#icons i{
+    margin:4px;
+}
+
+
+#search{
+    position: absolute;
+    top:27%;
+    right:8%;
+    height:23px;
+    width:23px;
+    background-color: rgba(255, 255, 255, 0.744);
+
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#search i{
+    color: black;
+    font-size: 70%;
+    font-weight: 900;
+}
+
+
+#bottom {
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+#bone {
+    height: 100%;
+    width: 25%;
+
+    padding:50px 80px 50px 80px;
+    background-color: rgb(242, 239, 239);
+    position: relative;
+
+}
+
+#bone h3{
+    color: black;
+    margin-bottom: 40px;
+}
+#bone p{
+    color: black;
+}
+
+.arrows{
+    position: absolute;
+    bottom:10%;
+    height:23px;
+    width:23px;
+    background-color: rgba(187, 181, 181, 0.744);
+
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two{
+    left: 30%;
+}
+
+
+
+#btwo {
+    height: 100%;
+    width: 25%;
+    background-image: url(https://media.istockphoto.com/id/1413808324/photo/people-in-a-zebra-crossing-casting-long-shadows.jpg?s=2048x2048&w=is&k=20&c=EJlK-kZdpKO-JBsobNX5W1ttTbm5Qr3sxqGmI15kF8A=);
+    background-size: cover;
+    background-position: 0 10%;
+}
+
+#bthree {
+    height: 100%;
+    width: 25%;
+    background-color: pink;
+}
+
+#up{
+    height: 50%;
+    background-color: rgba(37, 36, 36, 0.926);
+
+    padding: 35px 45px 35px 45px;
+    font-size: 14px;
+}
+
+#up h3{
+    margin-bottom: 12%;
+}
+#down{
+    height: 50%;
+    background-image: url(https://images.unsplash.com/photo-1739481967192-ac544545c21f?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
+    background-size: cover;
+}
+
+#bfour {
+    height: 100%;
+    width: 25%;
+
+    padding:50px 60px 50px 60px;  
+    background-color: rgba(0, 0, 0, 0.941);
+}
+
+
+.fdown{
+    display: flex;
+    margin-top: 20px;
+    height: 100%;
+    
+}
+.pfp{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: space-between;
+    /* width:fit-content; */
+}
+
+.harry{
+    /* background-color: white; */
+    background-image: url(https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o=);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.comments{
+
+    font-size:10px;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.comments p{
+    margin-bottom:7px;
+}
+
+.cm1{
+    margin-left: 10px;
+}
+
+.effect{
+    position:fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.304);
+    z-index:999;
+}
