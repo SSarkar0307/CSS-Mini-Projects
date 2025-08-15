@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Monument Extended'),
+        url(https://fonts.cdnfonts.com/s/19595/MonumentExtended-Regular.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Monument Extended'),
+        url(https://fonts.cdnfonts.com/s/19595/MonumentExtended-Ultrabold.woff) format('woff');
+}
+
+html,body{
+    height:100%;
+    width: 100%;
+}
+
+#main{
+    /* background-color: red; */
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.862);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#center{
+    /* background-color: yellow; */
+    height: 80%;
+    width: 64%;
+    position: relative;
+    border-radius: 20%;
+}
+
+.imgcontain{
+    overflow: hidden;
+    border-radius: 2%;
+    position:absolute;
+    height: 100%;
+    width: 0%;
+}
+
+img{
+    height: 100%;
+    /* width: 100%; */
+    object-fit:cover;
+}
+
+
+.text{
+    position: absolute;
+    bottom:15%;
+    left:-10%;
+    /* background-color: red; */
+    z-index: 999;
+    height: 70px;
+    width: 390px;
+
+    overflow: hidden; 
+}
+
+.text h1{
+    font-size: 60px;
+    font-family: 'Monument Extended';
+    color:white;
+    position: absolute;
+    top:150%;
+}
