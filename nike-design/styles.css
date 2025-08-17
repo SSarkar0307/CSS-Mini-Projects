@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #D0D4D5;
+    position: relative;
+}
+
+#navbar{
+    height: 100px;
+    /* background-color: red; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 80px;
+}
+
+#navleft{
+    display: flex;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+#navbar img{
+    height: 50px;
+    margin-right: 70px;
+    margin-left: 30px;
+}
+
+#navleft>h4{
+    margin-left: 60px;
+    
+}
+
+#navright i{
+    margin-right: 55px;
+}
+
+#content{
+    height: calc(100% - 100px);
+    width: 100%;
+    display: flex;
+
+}
+
+#left{
+    width: 40%;
+    /* background-color: red; */
+    padding: 110px;
+}
+
+#left h5{
+    color: #666869;
+    margin-bottom: 20px;
+
+}
+#left h1{
+    /* background-color: blue; */
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#left p{
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+button{
+    width: 175px;
+    height: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 8px;
+    border-radius: 999px;
+    border-top-left-radius: 0px;
+}
+
+#right{
+    width: 60%;
+    height: 100%;
+    /* background-color: gray; */
+    position: relative;
+    /* padding-top: 0px; */
+
+    display: flex;
+    overflow-x: auto;
+}
+
+.card{
+    flex-shrink: 0;
+    height: 75%;
+    width: 32%;
+    /* background-color: rgba(255, 255, 255, 0.682); */
+
+    background-color: rgba(255, 255, 255, 0.784);
+    margin-top: 50px;
+
+
+    position: relative;
+    /* top:8%; */
+    overflow: hidden;
+
+    border-radius:10px ;
+    box-shadow: 5px 5px 10px rgb(0,0,0,0.3);
+
+    /* display: inline-block; */
+
+    margin-right: 30px;
+}
+
+::-webkit-scrollbar {
+    /* width: 1px; */
+    height: 1px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 9999px;
+}
+
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.card h4{
+    position: absolute;
+    bottom:0;
+    right:0;
+    background-color: rgba(128, 128, 128, 0.556);
+    padding: 15px 22px;
+    font-size: 15px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+
+    font-weight: 600;
+}
+
+.card h3{
+    position: absolute;
+    bottom:10.8%;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+
+    border-radius: 7px;
+    border-bottom-right-radius: 0;
+
+    font-size: 11px;
+    padding: 14px 16px;
+    right: 0;
+}
